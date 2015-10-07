@@ -9,3 +9,15 @@ C:\Dev\Pluralsight\VSOnlineAndAzure\CustomerService.DAL\obj\Debug\CustomerServic
 C:\Dev\Pluralsight\VSOnlineAndAzure\CustomerService.DAL\obj\Debug\CustomerService.DAL.csproj.GenerateResource.Cache
 C:\Dev\Pluralsight\VSOnlineAndAzure\CustomerService.DAL\obj\Debug\CustomerService.DAL.dll
 C:\Dev\Pluralsight\VSOnlineAndAzure\CustomerService.DAL\obj\Debug\CustomerService.DAL.pdb
+C:\github\VSOnlineAndAzure\CustomerService.DAL\bin\Debug\CustomerService.DAL.dll.config
+C:\github\VSOnlineAndAzure\CustomerService.DAL\bin\Debug\CustomerService.DAL.dll
+C:\github\VSOnlineAndAzure\CustomerService.DAL\bin\Debug\CustomerService.DAL.pdb
+C:\github\VSOnlineAndAzure\CustomerService.DAL\bin\Debug\EntityFramework.dll
+C:\github\VSOnlineAndAzure\CustomerService.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\github\VSOnlineAndAzure\CustomerService.DAL\bin\Debug\EntityFramework.xml
+C:\github\VSOnlineAndAzure\CustomerService.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\github\VSOnlineAndAzure\CustomerService.DAL\obj\Debug\CustomerService.DAL.csprojResolveAssemblyReference.cache
+C:\github\VSOnlineAndAzure\CustomerService.DAL\obj\Debug\CustomerService.DAL.Migrations.InitialCreate.resources
+C:\github\VSOnlineAndAzure\CustomerService.DAL\obj\Debug\CustomerService.DAL.csproj.GenerateResource.Cache
+C:\github\VSOnlineAndAzure\CustomerService.DAL\obj\Debug\CustomerService.DAL.dll
+C:\github\VSOnlineAndAzure\CustomerService.DAL\obj\Debug\CustomerService.DAL.pdb
