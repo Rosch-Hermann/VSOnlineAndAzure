@@ -1,0 +1,40 @@
+﻿header {
+    background-position: 50px top;
+    float: left;
+    height: 550px;
+    position: fixed;
+    width: 300px;
+}
+
+header hgroup {
+    left: 40px;
+    top: 220px;
+}
+
+header h3 {
+    left: 20px;
+    position: absolute;
+    top: 280px;
+    width: 100%
+}
+
+header nav {
+    bottom: 0px;
+    left: 20px;
+}
+
+header nav a {
+    border-bottom: 1px solid #c1c1c1;
+    display: block;
+    font-size: 24px;
+    padding: 5px 0;
+}
+
+#container { margin: 30px 30px 0 330px }
+
+#copyright {
+    left: 0;
+    margin-left: 40px;
+    position: fixed;
+    top: 570px;
+}

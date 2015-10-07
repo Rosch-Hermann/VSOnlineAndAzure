@@ -1,0 +1,483 @@
+﻿/*----------------------------------------------------------
+The base color for this template is #5c87b2. If you'd like
+to use a different color start by replacing all instances of
+#5c87b2 with your new color.
+----------------------------------------------------------*/
+body {
+    color: #696969;
+    font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
+    font-size: .9em;
+    margin: 0;
+    padding: 0;
+}
+
+a:visited { color: #505abc; }
+
+a:hover {
+    color: #1d60ff;
+    text-decoration: none;
+}
+
+a:active { color: #12eb87; }
+
+p {
+    line-height: 1.6em;
+    margin-bottom: 20px;
+}
+
+ul {
+    line-height: 1.6em;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    padding-left: 20px;
+}
+
+footer { clear: both; }
+
+#main {
+    background-color: #fff;
+    float: left;
+    margin-left: 210px;
+    width: 795px;
+    z-index: 9900;
+}
+
+#left {
+    margin: 0px 5px;
+    position: absolute;
+    width: 200px;
+}
+
+#left div.profile { padding-left: 15px; }
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6 {
+    color: #000;
+    font-size: 1.5em;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h2 {
+    margin-top: 10px;
+    padding: 0 0 0px 0;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+h4 { font-size: 1.1em; }
+
+h5, h6 { font-size: 1em; }
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+/* you can specify a greater or lesser percentage for the 
+page width. Or, you can specify an exact pixel width. */
+
+.page {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header#head {
+    background: #404050;
+    color: #000;
+    margin-bottom: 0px;
+    padding: 0;
+    position: relative;
+}
+
+header h1, #header h1 {
+    border: none;
+    color: White;
+    display: block;
+    float: left;
+    font-size: 2em;
+    margin: 0;
+    padding: 2px 10px;
+}
+
+table { width: 100%; }
+
+.actions { text-align: right; }
+
+#parts .part {
+    display: inline-block;
+    vertical-align: top;
+    width: 260px;
+}
+
+/* TAB MENU   
+----------------------------------------------------------*/
+
+ul#tickets { padding: 0px; }
+
+ul#tickets li {
+    border: 1px solid #A0A0B0;
+    border-radius: 6px;
+    list-style: none;
+    margin-bottom: 6px;
+    padding: 6px;
+}
+
+ul#tickets header { color: Blue; }
+
+ul#tickets .detail { font-size: 0.85em; }
+
+ul#tickets label { color: Black; }
+
+/* TAB MENU   
+----------------------------------------------------------*/
+
+ul#menu {
+    margin: 0;
+    padding: 0 0 2px;
+    position: relative;
+    text-align: right;
+    width: 100%;
+}
+
+ul#menu li {
+    display: inline;
+    list-style: none;
+}
+
+ul#menu li#greeting {
+    color: #fff;
+    font-weight: bold;
+    line-height: 2.8em;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+ul#menu li a {
+    color: white;
+    font-weight: bold;
+    line-height: 2.8em;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+ul#menu li a:hover {
+    background-color: #505060;
+    text-decoration: none;
+}
+
+ul#menu li a:active {
+    background-color: #a6e2a6;
+    text-decoration: none;
+}
+
+ul#menu li.selected a {
+    background-color: #fff;
+    color: #000;
+}
+
+/* FORM LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset {
+    border: 1px solid #ddd;
+    margin: 0 0 1.5em 0;
+    padding: 0 1.4em 1.4em 1.4em;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea { min-height: 75px; }
+
+input[type="text"],
+input[type="password"] {
+    border: 1px solid #ccc;
+    color: #444;
+    font-size: 1.2em;
+    padding: 2px;
+    width: 200px;
+}
+
+select {
+    border: 1px solid #ccc;
+    color: #444;
+    font-size: 1.2em;
+    padding: 2px;
+}
+
+input[type="submit"] {
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+/* TABLE
+----------------------------------------------------------*/
+
+table {
+    border: solid 1px #404050;
+    border-collapse: collapse;
+}
+
+table td {
+    border: solid 1px #404050;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 5px;
+}
+
+
+table th {
+    background-color: #9090A0;
+    border: solid 1px #404050;
+    color: White;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#D0D0E0', endColorstr='#9090A0');
+    padding: 6px 5px;
+    text-align: left;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+
+.clear { clear: both; }
+
+.error { color: Red; }
+
+.nowrap { white-space: nowrap; }
+
+nav,
+#menucontainer { }
+
+#logindisplay {
+    background: white;
+    display: block;
+    font-size: 0.85em;
+    padding-right: 10px;
+    padding-top: 3px;
+    text-align: right;
+}
+
+#logindisplay a:link { text-decoration: underline; }
+
+#logindisplay a:visited { text-decoration: underline; }
+
+#logindisplay a:hover { text-decoration: none; }
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+
+.field-validation-error { color: #ff0000; }
+
+.field-validation-valid { display: none; }
+
+.input-validation-error {
+    background-color: #ffeeee;
+    border: 1px solid #ff0000;
+}
+
+.validation-summary-errors {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.validation-summary-valid { display: none; }
+
+/* Styles for editor and display helpers
+----------------------------------------------------------*/
+
+.display-label,
+.editor-label {
+    color: Black;
+    font-weight: bold;
+    margin: 1em 0 0 0;
+}
+
+.display-field,
+.editor-field { margin: 0.5em 0 0 0; }
+
+.text-box { width: 30em; }
+
+.text-box.multi-line { height: 6.5em; }
+
+.tri-state { width: 6em; }
+
+
+/* Buttons
+----------------------------------------------------------*/
+
+.button, .button:visited {
+    -moz-border-radius: 6px;
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+    -webkit-border-radius: 6px;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+    background: #222;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 10px 6px;
+    position: relative;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.pink.button, .magenta.button:visited { background-color: #e22092; }
+
+.pink.button:hover { background-color: #c81e82; }
+
+.green.button, .green.button:visited { background-color: #91bd09; }
+
+.green.button:hover { background-color: #749a02; }
+
+.red.button, .red.button:visited { background-color: #e62727; }
+
+.red.button:hover { background-color: #cf2525; }
+
+.orange.button, .orange.button:visited { background-color: #ff5c00; }
+
+.orange.button:hover { background-color: #d45500; }
+
+.blue.button, .blue.button:visited { background-color: #2981e4; }
+
+.blue.button:hover { background-color: #2575cf; }
+
+.yellow.button, .yellow.button:visited { background-color: #ffb515; }
+
+.yellow.button:hover { background-color: #fc9200; }
+
+
+.small.button, .small.button:visited { font-size: 11px }
+
+.button, .button:visited,
+.medium.button, .medium.button:visited {
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.large.button, .large.button:visited {
+    font-size: 14px;
+    padding: 8px 14px 9px;
+}
+
+.super.button, .super.button:visited {
+    font-size: 34px;
+    padding: 8px 14px 9px;
+}
+
+.customerDetail {
+    float: right;
+    padding: 0px 20px 0px 20px;
+}
+
+.customerDetail h2 { padding: 0px 0px 0px 0px; }
+
+.customerDetail .map {
+    height: 300px;
+    /*border: 1px solid black; */
+    margin: 10px 0px 0px 0px;
+    position: relative;
+    width: 500px;
+}
+
+div.time-table {
+    border: 1px solid;
+    display: none;
+    width: 795px
+}
+
+div.time-table table th {
+    border-left: 1px solid #000;
+    text-align: center;
+}
+
+div.time-table table td {
+    border-left: 1px solid #000;
+    font-size: .9em;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 50px;
+}
+
+div.time-table table th.employee {
+    text-align: left;
+    width: 120px;
+}
+
+div.time-table table td.employee {
+    border: 1px solid #000;
+    cursor: default;
+    padding-left: 5px;
+    text-align: left;
+    width: 120px;
+}
+
+div.time-table table td.free:hover { background-color: #e7e8ea; }
+
+div.time-table table td.free {
+    border-left: 1px dashed #ccc;
+    cursor: pointer;
+}
+
+div.time-table table td.full {
+    background-color: #ddd;
+    border-bottom: solid 1px #000;
+    border-top: solid 1px #000;
+    color: #666;
+    font-weight: bold;
+    text-align: center;
+}
+
+div.time-table table td.busy {
+    background-color: #404050;
+    border: 1px solid #000;
+    color: #fff;
+    padding: 0px 5px;
+}
+
+div.time-table table h2 {
+    color: #fff;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+div.time-table table p {
+    font-size: .8em;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*=LOADING Loading on the assign screen */
+
+div.loading { text-align: center; }
+
+div.loading div {
+    border: 8px solid;
+    margin: 100px auto;
+    padding: 20px 0px;
+    width: 600px;
+}
+
+
+/*=QUICKTIPS */
+
+.quicktip li {
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: justify;
+}

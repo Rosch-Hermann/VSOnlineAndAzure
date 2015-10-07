@@ -1,0 +1,11 @@
+C:\Dev\Pluralsight\VSOnlineAndAzure\CustomerService.DAL\bin\Debug\CustomerService.DAL.dll.config
+C:\Dev\Pluralsight\VSOnlineAndAzure\CustomerService.DAL\bin\Debug\CustomerService.DAL.dll
+C:\Dev\Pluralsight\VSOnlineAndAzure\CustomerService.DAL\bin\Debug\CustomerService.DAL.pdb
+C:\Dev\Pluralsight\VSOnlineAndAzure\CustomerService.DAL\bin\Debug\EntityFramework.dll
+C:\Dev\Pluralsight\VSOnlineAndAzure\CustomerService.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Dev\Pluralsight\VSOnlineAndAzure\CustomerService.DAL\bin\Debug\EntityFramework.xml
+C:\Dev\Pluralsight\VSOnlineAndAzure\CustomerService.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Dev\Pluralsight\VSOnlineAndAzure\CustomerService.DAL\obj\Debug\CustomerService.DAL.Migrations.InitialCreate.resources
+C:\Dev\Pluralsight\VSOnlineAndAzure\CustomerService.DAL\obj\Debug\CustomerService.DAL.csproj.GenerateResource.Cache
+C:\Dev\Pluralsight\VSOnlineAndAzure\CustomerService.DAL\obj\Debug\CustomerService.DAL.dll
+C:\Dev\Pluralsight\VSOnlineAndAzure\CustomerService.DAL\obj\Debug\CustomerService.DAL.pdb
